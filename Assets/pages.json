@@ -1,0 +1,2861 @@
+﻿[
+
+  {
+    "id": "intro",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "back": {
+        "allow": false
+      }
+    },
+    "contents": [
+      {
+        "type": "text-static-v1.1",
+        "class": "text-center font-bold text-xl",
+        "value": "New Group Maths Test<br>Linear Test B 2A - Trial"
+      }
+    ]
+  },
+  {
+    "id": "intro2",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "back": {
+        "allow": false
+      }
+    },
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "assessment-intro.mp3",
+          "autoplay": true,
+          "displayPlayButton": false
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Listen carefully to my instructions."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "I am going to show you six easy questions so you can practise before the test begins."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "If you have any trouble answering these questions, ask your teacher for help before starting the test."
+      }
+    ]
+  },
+  {
+    "id": "Practice1",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "allowPrevious": true,
+      "allowNext": true
+    },
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "practice-1.mp3",
+          "autoplay": true,
+          "displayPlayButton": false
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Practice 1"
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Daniel has six pieces of homework. He completes four pieces."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "How many pieces of homework does Daniel have left?"
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-row align-items-center",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "class": "mr-3",
+            "value": "Answer"
+          },
+          {
+            "type": "text-input-v1.1",
+            "responseId": "Practice1",
+            "setup": {
+              "alphanumeric": {
+                "maxLength": 4,
+                "allowedKeysRegEx": "[0-9]"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Practice2",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "allowPrevious": true,
+      "allowNext": true
+    },
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "practice-2.mp3",
+          "autoplay": true,
+          "displayPlayButton": false
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Practice 2"
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Which of these shapes has three sides?"
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "Practice2",
+        "class": "multiple-choice-input mcq-image",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "",
+              "asset": "PQ2_Red_Square.svg"
+            },
+            {
+              "id": "choice-2",
+              "text": "",
+              "asset": "PQ2_Yellow_ES.svg"
+            },
+            {
+              "id": "choice-3",
+              "text": "",
+              "asset": "PQ2_Green_Pentagon.svg"
+            },
+            {
+              "id": "choice-4",
+              "text": "",
+              "asset": "PQ2_Blue_Hexagon.svg"
+            }
+          ],
+          "maximumSelections": 1
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            },
+            {
+              "id": "choice-4",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "Practice3",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "allowPrevious": true,
+      "allowNext": true
+    },
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "practice-3.mp3",
+          "autoplay": true,
+          "displayPlayButton": false
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Practice 3"
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Which of these shapes have the same number of sides?"
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "Practice3",
+        "class": "multiple-choice-input mcq-image",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "",
+              "asset": "PQ2_Red_Square.svg"
+            },
+            {
+              "id": "choice-2",
+              "text": "",
+              "asset": "PQ2_Yellow_ES.svg"
+            },
+            {
+              "id": "choice-3",
+              "text": "",
+              "asset": "PQ3_Green_Triangle.svg"
+            },
+            {
+              "id": "choice-4",
+              "text": "",
+              "asset": "PQ2_Blue_Hexagon.svg"
+            }
+          ],
+          "maximumSelections": 4
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            },
+            {
+              "id": "choice-4",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "Practice4",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "allowPrevious": true,
+      "allowNext": true
+    },
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "practice-4.mp3",
+          "autoplay": true,
+          "displayPlayButton": false
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Practice 4"
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Put these numbers in order from the smallest to the largest."
+      },
+      {
+        "type": "drag-and-drop-input-v1.1",
+        "responseId": "Practice4",
+        "class": "drag-smallest-largest-5",
+        "setup": {
+          "dropZoneGroups": [
+            {
+              "groupId": "drop-Zone-Answers",
+              "groupName": "drop-zone-answers",
+              "dropZones": [
+                {
+                  "dropZoneId": "choice-drop-zone-1",
+                  "dropZones": [
+                    "option"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "1",
+                      "text": "20",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "dropZoneId": "choice-drop-zone-2",
+                  "dropZones": [
+                    "option"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "2",
+                      "text": "50",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "dropZoneId": "choice-drop-zone-3",
+                  "dropZones": [
+                    "option"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "3",
+                      "text": "10",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "dropZoneId": "choice-drop-zone-4",
+                  "dropZones": [
+                    "option"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "4",
+                      "text": "30",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "dropZoneId": "choice-drop-zone-5",
+                  "dropZones": [
+                    "option"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "5",
+                      "text": "40",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "groupId": "drop-Zone-Responses",
+              "groupName": "drop-zone-responses",
+              "dropZones": [
+                {
+                  "dropZoneId": "drop-zone-responses-1",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": [],
+                  "bottomLabel": "Smallest"
+                },
+                {
+                  "dropZoneId": "drop-zone-responses-2",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": []
+                },
+                {
+                  "dropZoneId": "drop-zone-responses-3",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": []
+                },
+                {
+                  "dropZoneId": "drop-zone-responses-4",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": []
+                },
+                {
+                  "dropZoneId": "drop-zone-responses-5",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": [],
+                  "bottomLabel": "Largest"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "Practice5",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "allowPrevious": true,
+      "allowNext": true
+    },
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "practice-5.mp3",
+          "autoplay": true,
+          "displayPlayButton": false
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Practice 5"
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Match the words to the correct numbers."
+      },
+      {
+        "type": "click-to-match-input-v1.1",
+        "responseId": "Practice5",
+        "setup": {
+          "orientation": "vertical",
+          "sourceClass": "mr-8",
+          "targetClass": "ml-8",
+          "items": [
+            {
+              "asset": null,
+              "itemId": "four",
+              "groupId": "sourceItems",
+              "text": "Four",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "three",
+              "groupId": "sourceItems",
+              "text": "Three",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "one",
+              "groupId": "sourceItems",
+              "text": "One",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "two",
+              "groupId": "sourceItems",
+              "text": "Two",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "1",
+              "groupId": "targetItems",
+              "text": "1",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "2",
+              "groupId": "targetItems",
+              "text": "2",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "3",
+              "groupId": "targetItems",
+              "text": "3",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "4",
+              "groupId": "targetItems",
+              "text": "4",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            }
+          ],
+          "maximumConnections": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "Practice6",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "allowPrevious": true,
+      "allowNext": true
+    },
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "practice-6.mp3",
+          "autoplay": true,
+          "displayPlayButton": false
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Practice 6"
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Shade <span class='fraction'><sup>1</sup><sub>2</sub></span> of the circle."
+      },
+      {
+        "type": "area-selection-input-v1.1",
+        "responseId": "Practice6",
+        "class": "w-20rem",
+        "setup": {
+          "asset": "PQ6_11.svg",
+          "isDisabled": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "start",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "next": {
+        "allow": false
+      }
+    },
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "assessment-outro.mp3",
+          "autoplay": true,
+          "displayPlayButton": false
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "This is the end of the practice questions. You are now ready to start the test."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Make sure you have everything you need before you begin. You will need a pen, or pencil, and some paper. Calculators should not be used in this test."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Please wait until your teacher tells you to begin the test and then click the �Start Test� button."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "If you want to move back and forth during the test, use the back and forward buttons at the bottom of your screen."
+      },
+      {
+        "type": "action-button-v1.1",
+        "value": "Start Test",
+        "setup": {
+          "clickAction": "startAssessment"
+        }
+      }
+    ]
+  },
+  {
+    "id": "TJ_027",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "back": {
+        "allow": false
+      }
+    },
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "TJ_027.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "What is six plus three?<br>Give your answer using <b>numbers only</b>."
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-row align-items-center",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "class": "w-auto mr-3",
+            "value": "Answer"
+          },
+          {
+            "type": "text-input-v1.1",
+            "responseId": "TJ_027",
+            "setup": {
+              "alphanumeric": {
+                "maxLength": 4,
+                "allowedKeysRegEx": "[0-9]"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VH_015",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "VH_015.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Choose <b>three</b> numbers to complete the addition sum."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "&nbsp;?&nbsp;&nbsp;+&nbsp;&nbsp;?&nbsp;&nbsp;+&nbsp;&nbsp;?&nbsp;&nbsp;= 21"
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Each number can only be used once."
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "VH_015",
+        "class": "multiple-choice-input",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "9"
+            },
+            {
+              "id": "choice-2",
+              "text": "5"
+            },
+            {
+              "id": "choice-3",
+              "text": "2"
+            },
+            {
+              "id": "choice-4",
+              "text": "1"
+            },
+            {
+              "id": "choice-5",
+              "text": "7"
+            }
+          ],
+          "maximumSelections": 3
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            },
+            {
+              "id": "choice-4",
+              "isSelected": false
+            },
+            {
+              "id": "choice-5",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "TJ_035",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "TJ_035.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Match each division sum to the correct answer."
+      },
+      {
+        "type": "click-to-match-input-v1.1",
+        "responseId": "TJ_035",
+        "setup": {
+          "orientation": "vertical",
+          "sourceClass": "mr-8",
+          "targetClass": "ml-8",
+          "items": [
+            {
+              "asset": null,
+              "itemId": "one",
+              "groupId": "sourceItems",
+              "text": "10 � 2 =",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "two",
+              "groupId": "sourceItems",
+              "text": "8 � 2 =",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "three",
+              "groupId": "sourceItems",
+              "text": "6 � 2 =",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "four",
+              "groupId": "sourceItems",
+              "text": "4 � 2 =",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "five",
+              "groupId": "sourceItems",
+              "text": "2 � 2 =",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "1",
+              "groupId": "targetItems",
+              "text": "1",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "2",
+              "groupId": "targetItems",
+              "text": "5",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "3",
+              "groupId": "targetItems",
+              "text": "2",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "4",
+              "groupId": "targetItems",
+              "text": "3",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "5",
+              "groupId": "targetItems",
+              "text": "4",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            }
+          ],
+          "maximumConnections": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "LD_010",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "LD_010_011_012.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Put these numbers in order, from smallest to largest."
+      },
+      {
+        "type": "drag-and-drop-input-v1.1",
+        "responseId": "LD_010",
+        "class": "drag-smallest-largest-4",
+        "setup": {
+          "dropZoneGroups": [
+            {
+              "groupId": "drop-Zone-Answers",
+              "groupName": "drop-zone-answers",
+              "dropZones": [
+                {
+                  "dropZones": [
+                    "option"
+                  ],
+                  "dropZoneId": "answer-drop-zone-1",
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "1",
+                      "text": "38",
+                      "asset": "",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "dropZones": [
+                    "option"
+                  ],
+                  "dropZoneId": "answer-drop-zone-2",
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "2",
+                      "text": "56",
+                      "asset": "",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "dropZones": [
+                    "option"
+                  ],
+                  "dropZoneId": "answer-drop-zone-3",
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "3",
+                      "text": "66",
+                      "asset": "",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "dropZones": [
+                    "option"
+                  ],
+                  "dropZoneId": "answer-drop-zone-4",
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "4",
+                      "text": "11",
+                      "asset": "",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "groupId": "drop-Zone-Responses",
+              "groupName": "drop-zone-responses",
+              "dropZones": [
+                {
+                  "dropZoneId": "drop-zone-responses-1",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": [],
+                  "bottomLabel": "Smallest"
+                },
+                {
+                  "dropZoneId": "drop-zone-responses-2",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": []
+                },
+                {
+                  "dropZoneId": "drop-zone-responses-3",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": []
+                },
+                {
+                  "dropZoneId": "drop-zone-responses-4",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": [],
+                  "bottomLabel": "Largest"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "VH_036",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "VH_036.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Which option describes this number sequence?"
+      },
+      {
+        "type": "static-image-v1.1",
+        "class": "w-50rem my-3 ml-4",
+        "setup": {
+          "asset": "VH_036.svg",
+          "alternativeText": ""
+        }
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "VH_036",
+        "class": "multiple-choice-input",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "It goes up in 2s"
+            },
+            {
+              "id": "choice-2",
+              "text": "It goes up in 3s"
+            },
+            {
+              "id": "choice-3",
+              "text": "It goes up in 4s"
+            }
+          ],
+          "maximumSelections": 1
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "SS_026",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "SS_017_018_026_027.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Use only these numbers to make a correct number sentence."
+      },
+      {
+        "type": "drag-and-drop-input-v1.1",
+        "responseId": "SS_026",
+        "class": "no-bg-color justify-content-center",
+        "setup": {
+          "dropZoneGroups": [
+            {
+              "groupId": "drop-Zone-Answers",
+              "groupName": "drop-zone-answers",
+              "dropZones": [
+                {
+                  "dropZones": [
+                    "option"
+                  ],
+                  "dropZoneId": "answer-drop-zone-1",
+                  "class": "border-round-2xl w-5rem h-5rem line-height-10",
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "1",
+                      "text": "10",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ],
+                      "class": "border-round-2xl"
+                    }
+                  ]
+                },
+                {
+                  "dropZones": [
+                    "option"
+                  ],
+                  "dropZoneId": "answer-drop-zone-2",
+                  "class": "border-round-2xl w-5rem h-5rem line-height-10",
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "2",
+                      "text": "35",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ],
+                      "class": "border-round-2xl"
+                    }
+                  ]
+                },
+                {
+                  "dropZones": [
+                    "option"
+                  ],
+                  "dropZoneId": "answer-drop-zone-3",
+                  "class": "border-round-2xl w-5rem h-5rem line-height-10",
+                  "maximumDragItems": 1,
+                  "dragItems": [
+                    {
+                      "dragItemId": "3",
+                      "text": "25",
+                      "permittedDropZones": [
+                        "option",
+                        "response"
+                      ],
+                      "class": "border-round-2xl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "groupId": "drop-Zone-Responses",
+              "groupName": "drop-zone-responses",
+              "dropZones": [
+                {
+                  "dropZoneId": "drop-zone-responses-1",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "class": " w-5rem h-5rem p-3",
+                  "maximumDragItems": 1,
+                  "dragItems": []
+                },
+                {
+                  "dropZoneId": "drop-zone-responses-2",
+                  "class": "mx-3 w-5rem h-5rem p-3",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": [],
+                  "leftLabel": "+",
+                  "rightLabel": "="
+                },
+                {
+                  "dropZoneId": "drop-zone-responses-3",
+                  "class": "mr-0 w-5rem h-5rem p-3",
+                  "dropZones": [
+                    "response"
+                  ],
+                  "maximumDragItems": 1,
+                  "dragItems": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "VH_022",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "VH_022.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Here is a number line."
+      },
+      {
+        "type": "static-image-v1.1",
+        "class": "flex flex-row w-30rem mt-3 pb-4",
+        "setup": {
+          "asset": "VH_022.svg",
+          "alternativeText": ""
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "What number is the arrow pointing to?"
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-row align-items-center",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "class": "mr-3",
+            "value": "Answer"
+          },
+          {
+            "type": "text-input-v1.1",
+            "responseId": "VH_022",
+            "setup": {
+              "alphanumeric": {
+                "maxLength": 4,
+                "allowedKeysRegEx": "[0-9]"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TJ_001",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "TJ_001.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Which part of this cube has been shaded in?"
+      },
+      {
+        "type": "static-image-v1.1",
+        "class": "w-15rem my-3 ml-8",
+        "setup": {
+          "asset": "TJ_001.svg",
+          "alternativeText": ""
+        }
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "TJ_001",
+        "class": "multiple-choice-input",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "Side"
+            },
+            {
+              "id": "choice-2",
+              "text": "Face"
+            },
+            {
+              "id": "choice-3",
+              "text": "Edge"
+            }
+          ],
+          "maximumSelections": 1
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "LD_007",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "LD_007_008.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Here is a pattern of shapes."
+      },
+      {
+        "type": "static-image-v1.1",
+        "class": "flex flex-column w-30rem mx-4 my-4",
+        "setup": {
+          "asset": "LD_007.svg",
+          "alternativeText": ""
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Which set of shapes would continue this pattern?"
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "LD_007",
+        "class": "multiple-choice-input mcq-image",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "",
+              "asset": "LD_007_1.svg",
+              "isDisabled": false
+            },
+            {
+              "id": "choice-2",
+              "text": "",
+              "asset": "LD_007_2.svg",
+              "isDisabled": false
+            },
+            {
+              "id": "choice-3",
+              "text": "",
+              "asset": "LD_007_3.svg",
+              "isDisabled": false
+            }
+          ],
+          "maximumSelections": 1
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "VH_009",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "VH_009.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Which container is holding 50ml of water?"
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "VH_009",
+        "class": "multiple-choice-input mcq-image",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "",
+              "asset": "VH_009_1.svg",
+              "isDisabled": false
+            },
+            {
+              "id": "choice-2",
+              "text": "",
+              "asset": "VH_009_2.svg",
+              "isDisabled": false
+            },
+            {
+              "id": "choice-3",
+              "text": "",
+              "asset": "VH_009_3.svg",
+              "isDisabled": false
+            }
+          ],
+          "maximumSelections": 1
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "TJ_045",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "TJ_045.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Here are four sentences about fractions."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Which sentence is correct?"
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "TJ_045",
+        "class": "multiple-choice-input mcq-radio line-height-4",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "<span class='fraction'><sup>1</sup><sub>2</sub></span> is the same as <span class='fraction'><sup>1</sup><sub>4</sub></span>"
+            },
+            {
+              "id": "choice-2",
+              "text": "<span class='fraction'><sup>2</sup><sub>3</sub></span> is the same as <span class='fraction'><sup>2</sup><sub>4</sub></span>"
+            },
+            {
+              "id": "choice-3",
+              "text": "<span class='fraction'><sup>1</sup><sub>2</sub></span> is the same as <span class='fraction'><sup>2</sup><sub>4</sub></span>"
+            },
+            {
+              "id": "choice-4",
+              "text": "<span class='fraction'><sup>3</sup><sub>4</sub></span> is the same as <span class='fraction'><sup>1</sup><sub>3</sub></span>"
+            }
+          ],
+          "maximumSelections": 1
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            },
+            {
+              "id": "choice-4",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "SS_033",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "SS_023_025_032_033_034.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Match the number sentences that have the same answer."
+      },
+      {
+        "type": "click-to-match-input-v1.1",
+        "responseId": "SS_033",
+        "setup": {
+          "orientation": "vertical",
+          "sourceClass": "mr-8",
+          "targetClass": "ml-8",
+          "items": [
+            {
+              "asset": null,
+              "itemId": "one",
+              "groupId": "sourceItems",
+              "text": "50 - 20",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "two",
+              "groupId": "sourceItems",
+              "text": "50 + 20",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "three",
+              "groupId": "sourceItems",
+              "text": "50 - 30",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "four",
+              "groupId": "sourceItems",
+              "text": "50 + 30",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "1",
+              "groupId": "targetItems",
+              "text": "30 + 50",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "2",
+              "groupId": "targetItems",
+              "text": "10 + 10",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "3",
+              "groupId": "targetItems",
+              "text": "20 + 50",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "4",
+              "groupId": "targetItems",
+              "text": "10 + 20",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            }
+          ],
+          "maximumConnections": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "VH_038",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "VH_038.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Here are three different number sequences.<br>One number is missing from each sequence."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "22&nbsp;&nbsp;24&nbsp;&nbsp;26&nbsp;&nbsp;28&nbsp;&nbsp;&nbsp;<b>?</b>&nbsp;&nbsp;&nbsp;32&nbsp;&nbsp;34"
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "21&nbsp;&nbsp;24&nbsp;&nbsp;27&nbsp;&nbsp;&nbsp;<b>?</b>&nbsp;&nbsp;&nbsp;33&nbsp;&nbsp;36&nbsp;&nbsp;39"
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "25&nbsp;&nbsp;&nbsp;<b>?</b>&nbsp;&nbsp;&nbsp;35&nbsp;&nbsp;40&nbsp;&nbsp;45&nbsp;&nbsp;50&nbsp;&nbsp;55"
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "What is the missing number?"
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-row align-items-center",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "class": "mr-3",
+            "value": "Answer"
+          },
+          {
+            "type": "text-input-v1.1",
+            "responseId": "VH_038",
+            "setup": {
+              "alphanumeric": {
+                "maxLength": 4,
+                "allowedKeysRegEx": "[0-9]"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SS_030",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "SS_030.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Which number sentence is correct?"
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "SS_030",
+        "class": "multiple-choice-input",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "35 - 11 = 46"
+            },
+            {
+              "id": "choice-2",
+              "text": "46 - 11 = 35"
+            },
+            {
+              "id": "choice-3",
+              "text": "11 - 46 = 35"
+            },
+            {
+              "id": "choice-4",
+              "text": "35 + 46 = 11"
+            }
+          ],
+          "maximumSelections": 1
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            },
+            {
+              "id": "choice-4",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "VH_037",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "VH_037.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Which of these statements about the 5 times table is true?"
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "VH_037",
+        "class": "multiple-choice-input mcq-radio line-height-4",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "All numbers in the 5 times table end in 0 or 5."
+            },
+            {
+              "id": "choice-2",
+              "text": "All numbers in the 5 times are odd."
+            },
+            {
+              "id": "choice-3",
+              "text": "All numbers in the 5 times are in the 10 times table. "
+            }
+          ],
+          "maximumSelections": 1
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "VH_012",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "VH_012.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Fill in the next 3 numbers in this sequence."
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-row align-items-center",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "class": "mr-3",
+            "value": "22, 34, 46,"
+          },
+          {
+            "type": "text-input-v1.1",
+            "responseId": "VH_012-1",
+            "setup": {
+              "alphanumeric": {
+                "maxLength": 4,
+                "allowedKeysRegEx": "[0-9]"
+              }
+            }
+          },
+          {
+            "type": "text-static-v1.1",
+            "class": "ml-2 mr-2",
+            "value": ","
+          },
+          {
+            "type": "text-input-v1.1",
+            "responseId": "VH_012-2",
+            "setup": {
+              "alphanumeric": {
+                "maxLength": 4,
+                "allowedKeysRegEx": "[0-9]"
+              }
+            }
+          },
+          {
+            "type": "text-static-v1.1",
+            "class": "ml-2 mr-2",
+            "value": ","
+          },
+          {
+            "type": "text-input-v1.1",
+            "responseId": "VH_012-3",
+            "setup": {
+              "alphanumeric": {
+                "maxLength": 4,
+                "allowedKeysRegEx": "[0-9]"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TJ_031",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "TJ_031_032.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Match each word with the correct number."
+      },
+      {
+        "type": "click-to-match-input-v1.1",
+        "responseId": "TJ_031",
+        "setup": {
+          "orientation": "vertical",
+          "sourceClass": "mr-8",
+          "targetClass": "ml-8",
+          "items": [
+            {
+              "asset": null,
+              "itemId": "one",
+              "groupId": "sourceItems",
+              "text": "Twenty",
+              "maxConnections": 1,
+              "class": " w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "two",
+              "groupId": "sourceItems",
+              "text": "Thirteen",
+              "maxConnections": 1,
+              "class": " w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "three",
+              "groupId": "sourceItems",
+              "text": "Fourteen",
+              "maxConnections": 1,
+              "class": " w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "four",
+              "groupId": "sourceItems",
+              "text": "Seventeen",
+              "maxConnections": 1,
+              "class": " w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "1",
+              "groupId": "targetItems",
+              "text": "17",
+              "maxConnections": 1,
+              "class": " w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "2",
+              "groupId": "targetItems",
+              "text": "20",
+              "maxConnections": 1,
+              "class": " w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "3",
+              "groupId": "targetItems",
+              "text": "14",
+              "maxConnections": 1,
+              "class": " w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "4",
+              "groupId": "targetItems",
+              "text": "13",
+              "maxConnections": 1,
+              "class": " w-9rem h-5rem line-height-10"
+            }
+          ],
+          "maximumConnections": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "SS_012",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "SS_011_012_013.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Complete this addition sum."
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-row align-items-center",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "class": "mr-3",
+            "value": "26 + 36 ="
+          },
+          {
+            "type": "text-input-v1.1",
+            "responseId": "SS_012",
+            "setup": {
+              "alphanumeric": {
+                "maxLength": 4,
+                "allowedKeysRegEx": "[0-9]"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TJ_010",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "TJ_010.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Choose the clock that is 60 minutes <b>ahead</b> of this clock."
+      },
+      {
+        "type": "static-image-v1.1",
+        "class": "w-12rem my-4",
+        "setup": {
+          "asset": "TJ_010_01.svg",
+          "alternativeText": ""
+        }
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "TJ_010",
+        "class": "multiple-choice-input mcq-image",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "",
+              "asset": "TJ_010_02.svg"
+            },
+            {
+              "id": "choice-2",
+              "text": "",
+              "asset": "TJ_010_03.svg"
+            },
+            {
+              "id": "choice-3",
+              "text": "",
+              "asset": "TJ_010_01.svg"
+            },
+            {
+              "id": "choice-4",
+              "text": "",
+              "asset": "TJ_010_04.svg"
+            }
+          ],
+          "maximumSelections": 1
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            },
+            {
+              "id": "choice-4",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "SS_003",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "SS_002_003_004.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Match each measurement to the correct unit."
+      },
+      {
+        "type": "click-to-match-input-v1.1",
+        "responseId": "SS_003",
+        "setup": {
+          "orientation": "vertical",
+          "sourceClass": "mr-8",
+          "targetClass": "ml-8",
+          "items": [
+            {
+              "asset": "SS_003_01.svg",
+              "itemId": "one",
+              "groupId": "sourceItems",
+              "text": "",
+              "maxConnections": 1,
+              "class": "w-20rem h-6rem line-height-10"
+            },
+            {
+              "asset": "SS_003_02.svg",
+              "itemId": "two",
+              "groupId": "sourceItems",
+              "text": "",
+              "maxConnections": 1,
+              "class": "w-20rem h-6rem line-height-10"
+            },
+            {
+              "asset": "SS_003_03.svg",
+              "itemId": "three",
+              "groupId": "sourceItems",
+              "text": "",
+              "maxConnections": 1,
+              "class": "w-20rem h-6rem line-height-10"
+            },
+            {
+              "asset": "SS_003_04.svg",
+              "itemId": "four",
+              "groupId": "sourceItems",
+              "text": "",
+              "maxConnections": 1,
+              "class": "w-20rem h-6rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "1",
+              "groupId": "targetItems",
+              "text": "centimetres",
+              "maxConnections": 1,
+              "class": "w-9rem h-6rem line-height-11"
+            },
+            {
+              "asset": null,
+              "itemId": "2",
+              "groupId": "targetItems",
+              "text": "millilitres",
+              "maxConnections": 1,
+              "class": "w-9rem h-6rem line-height-11"
+            },
+            {
+              "asset": null,
+              "itemId": "3",
+              "groupId": "targetItems",
+              "text": "kilograms",
+              "maxConnections": 1,
+              "class": "w-9rem h-6rem line-height-11"
+            },
+            {
+              "asset": null,
+              "itemId": "4",
+              "groupId": "targetItems",
+              "text": "centigrade",
+              "maxConnections": 1,
+              "class": "w-9rem h-6rem line-height-11"
+            }
+          ],
+          "maximumConnections": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "Y2_TH_002",
+    "type": "default-page-v1.1",
+    "class": "flex-row",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "Y2_TH_002.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-column w-5",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "value": "Ali has a games board. She has a counter on space number 7.<br>Ali moves her counter <b>up two spaces</b>.<br>Ali then moves her counter <b>right one space</b>."
+          },
+          {
+            "type": "text-static-v1.1",
+            "value": "Which space number will Ali�s counter finish on?"
+          },
+          {
+            "type": "default-container-v1.1",
+            "class": "flex flex-row align-items-center",
+            "contents": [
+              {
+                "type": "text-static-v1.1",
+                "class": "w-auto mr-3",
+                "value": "Answer"
+              },
+              {
+                "type": "text-input-v1.1",
+                "responseId": "Y2_TH_002",
+                "setup": {
+                  "alphanumeric": {
+                    "maxLength": 4,
+                    "allowedKeysRegEx": "[0-9]"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "static-image-v1.1",
+        "class": "flex flex-column w-20rem mt-3",
+        "setup": {
+          "asset": "Y2_TH_002.svg",
+          "alternativeText": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "VH_046",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "VH_046.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "What fraction of each fruit has been chosen."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Match each picture to the correct fraction."
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-row text-left",
+        "contents": [
+          {
+            "type": "click-to-match-input-v1.1",
+            "responseId": "VH_046",
+            "setup": {
+              "orientation": "horizontal",
+              "sourceClass": "mb-6",
+              "targetClass": "",
+              "items": [
+                {
+                  "asset": "VH_046_01.svg",
+                  "itemId": "one",
+                  "groupId": "sourceItems",
+                  "text": "",
+                  "maxConnections": 1,
+                  "class": "w-15rem h-12rem line-height-10"
+                },
+                {
+                  "asset": "VH_046_02.svg",
+                  "itemId": "two",
+                  "groupId": "sourceItems",
+                  "text": "",
+                  "maxConnections": 1,
+                  "class": "w-15rem h-12rem line-height-10"
+                },
+                {
+                  "asset": "VH_046_03.svg",
+                  "itemId": "three",
+                  "groupId": "sourceItems",
+                  "text": "",
+                  "maxConnections": 1,
+                  "class": "w-15rem h-12rem line-height-10"
+                },
+                {
+                  "asset": null,
+                  "itemId": "1",
+                  "groupId": "targetItems",
+                  "text": "<span class='fraction'><sup>1</sup><sub>4</sub></span>",
+                  "maxConnections": 1,
+                  "class": "w-15rem h-5rem line-height-10"
+                },
+                {
+                  "asset": null,
+                  "itemId": "2",
+                  "groupId": "targetItems",
+                  "text": "<span class='fraction'><sup>1</sup><sub>3</sub></span>",
+                  "maxConnections": 1,
+                  "class": "w-15rem h-5rem line-height-10"
+                },
+                {
+                  "asset": null,
+                  "itemId": "3",
+                  "groupId": "targetItems",
+                  "text": "<span class='fraction'><sup>1</sup><sub>2</sub></span>",
+                  "maxConnections": 1,
+                  "class": "w-15rem h-5rem line-height-10"
+                }
+              ],
+              "maximumConnections": 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LD_024",
+    "type": "default-page-v1.1",
+    "class": "flex-row",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "LD_024.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-column",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "value": "Fill in the missing numbers in these <b>three</b> number sentences."
+          },
+          {
+            "type": "default-container-v1.1",
+            "class": "flex flex-row align-items-center mb-4",
+            "contents": [
+              {
+                "type": "text-static-v1.1",
+                "class": "w-auto mr-2",
+                "value": "20 +"
+              },
+              {
+                "type": "text-input-v1.1",
+                "responseId": "LD_024-1",
+                "class": "w-60px",
+                "setup": {
+                  "alphanumeric": {
+                    "maxLength": 4,
+                    "allowedKeysRegEx": "[0-9]"
+                  }
+                }
+              },
+              {
+                "type": "text-static-v1.1",
+                "class": "w-auto ml-2",
+                "value": "= 70"
+              }
+            ]
+          },
+          {
+            "type": "default-container-v1.1",
+            "class": "flex flex-row align-items-center mb-4",
+            "contents": [
+              {
+                "type": "text-static-v1.1",
+                "class": " w-auto mr-2",
+                "value": "80 � 50 ="
+              },
+              {
+                "type": "text-input-v1.1",
+                "responseId": "LD_024-2",
+                "class": "w-60px",
+                "setup": {
+                  "alphanumeric": {
+                    "maxLength": 4,
+                    "allowedKeysRegEx": "[0-9]"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "default-container-v1.1",
+            "class": "flex flex-row align-items-center",
+            "contents": [
+              {
+                "type": "text-input-v1.1",
+                "responseId": "LD_024-3",
+                "class": "w-60px",
+                "setup": {
+                  "alphanumeric": {
+                    "maxLength": 4,
+                    "allowedKeysRegEx": "[0-9]"
+                  }
+                }
+              },
+              {
+                "type": "text-static-v1.1",
+                "class": "ml-2",
+                "value": "� 40 = 60"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LD_030",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "LD_030.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Joseph thinks 33 + 58 = 91."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Choose the number sentence which proves that Joseph is right."
+      },
+      {
+        "type": "multiple-choice-input-v1.1",
+        "responseId": "LD_030",
+        "class": "multiple-choice-input mcq-radio",
+        "setup": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "58 + 91 = 33"
+            },
+            {
+              "id": "choice-2",
+              "text": "91 � 30 = 61"
+            },
+            {
+              "id": "choice-3",
+              "text": "33 � 58 = 91"
+            },
+            {
+              "id": "choice-4",
+              "text": "91 � 33 = 58"
+            }
+          ],
+          "maximumSelections": 1
+        },
+        "state": {
+          "choices": [
+            {
+              "id": "choice-1",
+              "isSelected": false
+            },
+            {
+              "id": "choice-2",
+              "isSelected": false
+            },
+            {
+              "id": "choice-3",
+              "isSelected": false
+            },
+            {
+              "id": "choice-4",
+              "isSelected": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "LD_039",
+    "type": "default-page-v1.1",
+    "class": "flex-row",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "LD_039.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-column",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "value": "Jessica has 9 bags of pears.<br>Each bag contains 5 pears."
+          },
+          {
+            "type": "text-static-v1.1",
+            "value": "How many pears does Jessica have altogether?"
+          },
+          {
+            "type": "default-container-v1.1",
+            "class": "flex flex-row align-items-center",
+            "contents": [
+              {
+                "type": "text-static-v1.1",
+                "class": "w-auto mr-3",
+                "value": "Answer"
+              },
+              {
+                "type": "text-input-v1.1",
+                "responseId": "LD_039",
+                "setup": {
+                  "alphanumeric": {
+                    "maxLength": 4,
+                    "allowedKeysRegEx": "[0-9]"
+                  }
+                }
+              },
+              {
+                "type": "text-static-v1.1",
+                "class": "ml-3",
+                "value": "pears"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SS_034",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "SS_023_025_032_033_034.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Match the number sentences that have the same answer."
+      },
+      {
+        "type": "click-to-match-input-v1.1",
+        "responseId": "SS_034",
+        "setup": {
+          "orientation": "vertical",
+          "sourceClass": "mr-8",
+          "targetClass": "ml-8",
+          "items": [
+            {
+              "asset": null,
+              "itemId": "one",
+              "groupId": "sourceItems",
+              "text": "80 - 10",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "two",
+              "groupId": "sourceItems",
+              "text": "20 + 47",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "three",
+              "groupId": "sourceItems",
+              "text": "60 - 0",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "four",
+              "groupId": "sourceItems",
+              "text": "0 - 0",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "five",
+              "groupId": "sourceItems",
+              "text": "30 + 43",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "1",
+              "groupId": "targetItems",
+              "text": "10 + 50",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "2",
+              "groupId": "targetItems",
+              "text": "60 - 60",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "3",
+              "groupId": "targetItems",
+              "text": "47 + 20",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "4",
+              "groupId": "targetItems",
+              "text": "60 + 10",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            },
+            {
+              "asset": null,
+              "itemId": "5",
+              "groupId": "targetItems",
+              "text": "43 + 30",
+              "maxConnections": 1,
+              "class": "w-9rem h-5rem line-height-10"
+            }
+          ],
+          "maximumConnections": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "SS_016",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "SS_014_015_016.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "What is the missing number in this addition sum?"
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-row align-items-center",
+        "contents": [
+          {
+            "type": "text-input-v1.1",
+            "responseId": "SS_016",
+            "setup": {
+              "alphanumeric": {
+                "maxLength": 4,
+                "allowedKeysRegEx": "[0-9]"
+              }
+            }
+          },
+          {
+            "type": "text-static-v1.1",
+            "class": "ml-2",
+            "value": "+ 17 = 91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VH_050",
+    "type": "default-page-v1.1",
+    "class": "flex-row",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "VH_050.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-column w-4",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "value": "Jar A holds 74 sweets.<br>Jar B holds half as many sweets as Jar A."
+          },
+          {
+            "type": "text-static-v1.1",
+            "value": "How many sweets does Jar B hold?"
+          },
+          {
+            "type": "default-container-v1.1",
+            "class": "flex flex-row align-items-center",
+            "contents": [
+              {
+                "type": "text-static-v1.1",
+                "class": "mr-3",
+                "value": "Answer"
+              },
+              {
+                "type": "text-input-v1.1",
+                "responseId": "VH_050",
+                "setup": {
+                  "alphanumeric": {
+                    "maxLength": 4,
+                    "allowedKeysRegEx": "[0-9]"
+                  }
+                }
+              },
+              {
+                "type": "text-static-v1.1",
+                "class": "ml-3",
+                "value": "sweets"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "static-image-v1.1",
+        "class": "flex flex-column w-20rem mt-3",
+        "setup": {
+          "asset": "VH_050.svg",
+          "alternativeText": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "LD_050",
+    "type": "default-page-v1.1",
+    "class": "flex-row",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "LD_050.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-column w-5",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "value": "This table shows the number of cars that were washed each day."
+          },
+          {
+            "type": "text-static-v1.1",
+            "value": "How many <b>more</b> cars were washed on Tuesday than Wednesday?"
+          },
+          {
+            "type": "default-container-v1.1",
+            "class": "flex flex-row align-items-center",
+            "contents": [
+              {
+                "type": "text-static-v1.1",
+                "class": "w-auto mr-3",
+                "value": "Answer"
+              },
+              {
+                "type": "text-input-v1.1",
+                "responseId": "LD_050",
+                "setup": {
+                  "alphanumeric": {
+                    "maxLength": 4,
+                    "allowedKeysRegEx": "[0-9]"
+                  }
+                }
+              },
+              {
+                "type": "text-static-v1.1",
+                "class": "ml-3",
+                "value": "cars"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "static-image-v1.1",
+        "class": "flex flex-column w-28rem mt-3",
+        "setup": {
+          "asset": "LD_050.svg",
+          "alternativeText": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "VH_043",
+    "type": "default-page-v1.1",
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "VH_043.mp3",
+          "autoplay": true,
+          "displayPlayButton": true
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "Peter has 36 sweets.<br>He eats <span class='fraction'><sup>1</sup><sub>4</sub></span> of them."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "How many sweets does he eat?"
+      },
+      {
+        "type": "default-container-v1.1",
+        "class": "flex flex-row align-items-center",
+        "contents": [
+          {
+            "type": "text-static-v1.1",
+            "class": "w-auto mr-3",
+            "value": "Answer"
+          },
+          {
+            "type": "text-input-v1.1",
+            "responseId": "VH_043",
+            "setup": {
+              "alphanumeric": {
+                "maxLength": 4,
+                "allowedKeysRegEx": "[0-9]"
+              }
+            }
+          },
+          {
+            "type": "text-static-v1.1",
+            "class": "w-auto ml-3",
+            "value": "sweets"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "end",
+    "type": "default-page-v1.1",
+    "navigationConfig": {
+      "next": {
+        "allow": false
+      }
+    },
+    "contents": [
+      {
+        "type": "static-audio-v1.1",
+        "setup": {
+          "asset": "end.mp3",
+          "autoplay": true,
+          "displayPlayButton": false
+        }
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "This is the end of the test."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "If you have time, re-check your answers and make sure you are happy with them."
+      },
+      {
+        "type": "text-static-v1.1",
+        "value": "To finish the test and submit your answers, click the �End Test� button."
+      },
+      {
+        "type": "action-button-v1.1",
+        "value": "End Test",
+        "setup": {
+          "clickAction": "endAssessment"
+        }
+      }
+    ]
+  }
+
+]
